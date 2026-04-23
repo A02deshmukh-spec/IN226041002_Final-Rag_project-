@@ -1,0 +1,27 @@
+RAG CUSTOMER SUPPORT ASSISTANT - CLEAN START
+============================================
+
+Follow these steps to run your project.
+
+### Step 1: Go to your project folder
+cd "c:\Users\andes\OneDrive\Desktop\Google Antigravity\rag_support_project"
+
+### Step 2: Try the Simple Way (Requires Activation)
+1. Run: . .\.venv\activate\Scripts\Activate.ps1
+2. If active, run: streamlit run src\web_app.py
+
+--------------------------------------------------------
+### 🚨 THE "FOOLPROOF" WAY (If the above fails)
+--------------------------------------------------------
+If you see "ModuleNotFoundError", copy and paste this exact command:
+
+& "c:\Users\andes\OneDrive\Desktop\Google Antigravity\rag_support_project\.venv\Scripts\python.exe" -m streamlit run "c:\Users\andes\OneDrive\Desktop\Google Antigravity\rag_support_project\src\web_app.py"
+
+========================================================
+QUICK USAGE TIPS:
+========================================================
+- Standard Question: "What is your return policy?"
+- To Test Escalation (HITL): "I want to talk to a manager now!"
+
+
+& "c:\Users\andes\OneDrive\Desktop\Google Antigravity\rag_support_project\.venv\Scripts\python.exe" -m streamlit run "c:\Users\andes\OneDrive\Desktop\Google Antigravity\rag_support_project\src\web_app.py"
